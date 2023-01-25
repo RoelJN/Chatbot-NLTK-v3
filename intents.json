@@ -1,26 +1,26 @@
 {"intents": [
     {
         "tag": "greeting",
-        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+        "patterns": ["Hi there", "How are you", "Activate Virtual human","Hey","Good morning", "Hello", "Good day"],
+         "responses": ["Hello Roeland", "Good to see you again", "Hi there, how can I help?", "Hi Roeland good to see you again"],
         "context": [""]
     },
     {
         "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "See you tomorrow"],
+         "responses": ["See you!", "Have a nice day", "You'll have a busy day tomorrow see you then"],
         "context": [""]
     },
     {
         "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-        "responses": ["My pleasure", "You're Welcome"],
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for redirecting me", "Thank you for telling me where the truckstop is"],
+         "responses": ["My pleasure", "You're Welcome", "No problem I am here to help"],
         "context": [""]
     },
     {
         "tag": "query",
-        "patterns": ["What is big bang?"],
-        "responses": ["The Big Bang theory is the prevailing cosmological model explaining the existence of the observable universe from the earliest known periods through its subsequent large-scale evolution."],
+        "patterns": ["Where can I rest", "Where is the nearest truckstop"],
+        "responses": ["In 5KM there is a truckstop with sleeping rooms", "The nearest truckstop is in 12KM, it is very busy at the moment", "Take the first exit of the highway then after 7KM you'll reach the next truckstop"],
         "context": [""]
     } 
     ]
